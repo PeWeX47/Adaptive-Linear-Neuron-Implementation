@@ -41,6 +41,3 @@ class Adaline:
                 
             self.list_of_errors.append(MSE_error)
             
-            if(self.is_verbose):
-                print("Epoch: {}, MSE_error {}".format(
-                        epoch, MSE_error))
