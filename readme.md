@@ -1,0 +1,2 @@
+# Adaline implementation in Python
+This repository contains the implementation of the Adaline model in Python using NumPy. Adaline (Adaptive Linear Neuron) is a single-layer neural network designed for binary classification tasks.
