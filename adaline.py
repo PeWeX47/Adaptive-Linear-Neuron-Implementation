@@ -41,3 +41,7 @@ class Adaline:
                 
             self.list_of_errors.append(MSE_error)
             
+            if self.is_verbose and epoch == self.epochs - 1:
+                print(f'Final MSE: {MSE_error}')
+
+    
